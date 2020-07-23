@@ -1,0 +1,16 @@
+package commsg;
+
+struct comm_msg_t
+{
+	string sender;
+	string receiver;
+	string msg_type;
+
+	double  position[2];
+	int16_t r;
+    int16_t q;
+	double exec_time;
+	int16_t seq_no;	
+	double bids;
+	string winner;
+}
